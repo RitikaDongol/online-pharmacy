@@ -1,0 +1,46 @@
+.footer{
+    background-color: #000;
+    padding: 50px;
+    color: #fff;
+}
+.col-md-3 a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 38px;
+}
+.col-md-3 a:hover{
+    color: #ea98a0;
+}
+.col-md-3 i{
+    font-size: 38px;
+    color: #ea98a0;
+}
+.col-md-3 .head{
+    font-size: 28px;
+    line-height: 48px;
+}
+.col-md-3 h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.col-md-3 p{
+    padding: 10px;
+    line-height: 28px;
+}
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.links ul li a{
+    font-size: 16px;
+    color: #fff;
+}
+.footer .myname{
+    text-decoration: none;
+    color: #13ade1;
+}
+.e-icon{
+    color: #13ade1;
+}
+

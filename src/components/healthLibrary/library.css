@@ -1,0 +1,26 @@
+.date-color{
+    color:rgb(116, 116, 116);
+    font-size: 14px;
+}
+.btn-read{
+    background-color: #13ade1;
+    border-color:#13ade1 ;
+    font-size: 15px;
+}
+.btn-read:hover{
+    border-color: #0e5dae;
+    background-color: #ffff;
+    color: #0e5dae !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.library{
+    width: 81%;
+}
+.display-card{
+    width: 22rem;
+}
+.desc{
+    color:rgb(148, 147, 147);
+    line-height: 1.5;
+}

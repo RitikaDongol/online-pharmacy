@@ -1,0 +1,81 @@
+.contact-us{
+    padding: 80px 0;
+}
+.contact-title h4{
+
+    font-weight: 600;
+    color: #000;
+    font-size: 36px;
+}
+.contact-title h5{
+    font-weight: 500;
+    color: rgb(159, 159, 159);
+    margin-bottom: 20px;
+}
+.contact-title p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #3e606b;
+}
+/* ---------contact form------- */
+.form-box input, textarea{
+    width: 500px;
+    border:none ;
+    padding: 13px 10px;
+    background-color: #fdf6fa;
+    box-shadow: 0 1px 1px 0px;
+    font-size: 15px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.form-box button{
+    border: 1px solid #0e5dae;
+    outline: none;
+    background-color: #0e5dae;
+    color: #fff;
+    padding: 8px;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   
+}
+.form-box input:focus, textarea:focus{
+    /* border: 3.5px solid rgb(170, 210, 224); */
+    outline: none;
+    box-shadow: 0px 0px 0 3.3px rgb(181, 220, 235);
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+.form-box button:hover{
+    background-color: #fff;
+    border: 1px solid #0e5dae;
+    color: #000;
+    transition: all 0.5s ease;
+}
+.info-box h6{
+    font-size: 17px;
+    font-weight: 600;
+}
+@media screen and (max-width:700px) {
+    .form-box input, textarea{
+        width: 380px;
+        font-size: 14px;
+    }
+    .form-box button{
+        width: 380px;
+    }
+}
+/* -------------map-------------- */
+.map-container iframe{
+    width: 100%;
+    height: 22em;
+}
+.map-container{
+    border: 1px solid #dadada;
+    padding: 5px;
+}
